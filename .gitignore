@@ -164,3 +164,9 @@ cython_debug/
 *.svs
 *.zarr
 *.bfmemo
+
+# jupyter-book build output
+_build/
+
+# macOS file
+.DS_Store
