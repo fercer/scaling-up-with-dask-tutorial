@@ -3,6 +3,16 @@
 
 format: jb-book
 root: README
-chapters:
-- file: notebooks/Zarr_and_Dask_for_large-scale_imaging-Part-1.ipynb
-- file: notebooks/Zarr_and_Dask_for_large-scale_imaging-Part-2.ipynb
+parts:
+  - caption: Notebooks
+    chapters:
+    - file: notebooks/Zarr_and_Dask_for_large-scale_imaging-Part-1.ipynb
+      title: Part 1
+    - file: notebooks/Zarr_and_Dask_for_large-scale_imaging-Part-2.ipynb
+      title: Part 2
+  - caption: Solved notebooks
+    chapters:
+    - file: notebooks/Solved_Zarr_and_Dask_for_large-scale_imaging-Part-1.ipynb
+      title: Part 1
+    - file: notebooks/Solved_Zarr_and_Dask_for_large-scale_imaging-Part-2.ipynb
+      title: Part 2
