@@ -24,7 +24,7 @@ Install the following packages in the newly created environment.
 ```
 conda activate scale-up
 
-conda install -c conda-forge "cellpose>=3.0,<4.0" "tifffile>=2018.10.18,<2025.6.11" "zarr>=2.0,<3.0" dask=2025.5.1 distributed=2025.5.1 dask-image=2024.5.3 imagecodecs=2025.3.30
+conda install -c conda-forge "cellpose>=3.0,<4.0" "tifffile>=2018.10.18,<=2025.5.21" "zarr>=2.0,<3.0" dask=2025.5.1 distributed=2025.5.1 dask-image=2024.5.3 imagecodecs=2025.3.30 requests=2.32.4 aiohttp=3.12.13
 ```
 
 We'll open some image files that are compressed using `JPEG2000`, so we need `imagecodecs` to have access to this compression algorithm.
