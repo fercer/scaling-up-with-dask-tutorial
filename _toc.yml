@@ -16,3 +16,6 @@ parts:
       title: Part 1
     - file: notebooks/Solved_Zarr_and_Dask_for_large-scale_imaging-Part-2.ipynb
       title: Part 2
+  - caption: Other resources
+    chapters:
+    - file: optional_napari.md

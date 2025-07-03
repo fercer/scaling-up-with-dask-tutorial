@@ -35,11 +35,12 @@ Additionally, install Jupyterlab to follow the notebooks, and its Dask extension
 conda install -c conda-forge jupyterlab=4.4.3 dask-labextension=7.0.0
 ```
 
-## A test image
+## Test images
 
-We'll work with big microscopy images. An example of that kind of image can be found [here](https://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/CMU-1.svs).
-So it is a good idea to have it downloaded as well.
+We'll work with big microscopy images: whole slide images. These are images obtained by scanning slides on which thin slices of tissue have been mounted. A number of examples of these kind of image can be found in the [OpenSlide](https://openslide.org) test data, for example in the [Aperio SVS format](https://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/). These are TIFF variants that can be read with the [`Tifffile` Python library](https://github.com/cgohlke/tifffile).
 
-A crop of that image can be found [here](https://drive.google.com/file/d/17owNcq_Or6aBAyUVE33fyHSS0VvKuHSw/view?usp=sharing), along with its `Zarr` version [here](https://drive.google.com/file/d/1BmNxOrO3vOFPR-PCnV00DYgFsD1sDu47/view?usp=sharing).
+For this workshop, we recommend downloading a smaller crop of the CMU-1 image from [our google drive](https://drive.google.com/file/d/17owNcq_Or6aBAyUVE33fyHSS0VvKuHSw/view?usp=sharing), along with [its `Zarr` version](https://drive.google.com/file/d/1BmNxOrO3vOFPR-PCnV00DYgFsD1sDu47/view?usp=sharing).
 
-A smaller example image can be found [here](https://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/CMU-1-Small-Region.svs), and its corresponding `Zarr` version [here](https://drive.google.com/file/d/1MifgafB5mhVAvqjzEAAR_zQajAU5Dcya/view?usp=drive_link).
+A alternative even smaller example image can be found [in the OpenSlide test data](https://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/CMU-1-Small-Region.svs), and its corresponding `Zarr` version can also be downloaded from [our google drive](https://drive.google.com/file/d/1MifgafB5mhVAvqjzEAAR_zQajAU5Dcya/view?usp=drive_link).
+
+**Please pre-download either pair of images before the tutorial!**
