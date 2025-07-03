@@ -16,7 +16,7 @@ napari https://storage.googleapis.com/jax-public-ngff/example_v2/CMU-1_Crop.ome.
 ```
 Note the `/0` at the end of the path, indicating that napari should open the first (and only in this case) image multiscale/pyramid group. You can also subsitute the path to your local copy of `CMU-1_Crop.ome.zarr`, making sure to append the `/0`.
 
-Once the viewer loads, you can then drag-and-drop the labels zarr folder (CMU-1_Crop_labels_cellpose_cyto3.zarr) into the napari viewer to add the labels layer. When prompted, select `napari-ome-zarr` plugin. However, you will need to right-click on the labels layer (named "C") in the layer list on the left side of the viewer and select "Convert to labels" to get the correct rendering of the labels.
+Once the viewer loads, you can then drag-and-drop the labels zarr folder (`CMU-1_Crop_labels_cellpose_cyto3.zarr`) into the napari viewer to add the labels layer. When prompted, select `napari-ome-zarr` plugin. Once the layer loads, you will need to right-click on the labels layer (named "C") in the layer list on the left side of the viewer and select "Convert to labels" to get the correct rendering of the labels.
 
 After zooming in a bit, you should see something like this:
 ![Screenshot of napari viewer with CMU-1 image and Cellpose labels loaded.](napari-screenshot.png)
