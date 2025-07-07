@@ -4,6 +4,9 @@
 format: jb-book
 root: README
 parts:
+  - caption: Outline
+    chapters:
+    - file: outline.md
   - caption: Notebooks
     chapters:
     - file: notebooks/Zarr_and_Dask_for_large-scale_imaging-Part-1.ipynb
